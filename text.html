@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mubeen Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6302ab5f34.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logofin.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact"></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>BlockChain Developer</p>
+                <h1>Hi,i'm <span>Mubeen</span><br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Promo-Twitter-Twitter profile picture size.jpeg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A passionate software developer known for innovative solutions and dedication 
+                        to creating exceptional software and a dedicated cybersecurity engineer with a passion for protecting 
+                        digital assets and data from the ever-evolving landscape of cyber threats.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>BlockChain Developer</span><br>Build Smart Contracts</li>
+                                <li><span>CyberSecurity Engineer</span><br>Protect Digital Assets</li>
+                                <li><span>Game Developer</span><br>Building Games At Unity</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>CyberSecurity Training</span><br>PNY Institute</li>
+                                <li><span> Learning BlockChain Development</span><br>From Arfa Tower</li>
+                                <li><span>Game Developer</span><br>At Tech Games</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>ICS</span><br>2018-2019 from PGC</li>
+                                <li><span>BS In Computer Science</span><br>From University Of Lahore</li>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-----------services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titels">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-hive"></i>
+                <h2>Blockchain Developer</h2>
+                <p>developing and optimizing blockchain protocols, crafting the architecture 
+                    of blockchain systems, developing smart contracts and web apps using blockchain technology</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Cybersecurity Engineer</h2>
+                <p>developing and optimizing blockchain protocols, crafting the architecture 
+                    of blockchain systems, developing smart contracts and web apps using blockchain technology</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game Developer</h2>
+                <p>developing and optimizing blockchain protocols, crafting the architecture 
+                    of blockchain systems, developing smart contracts and web apps using blockchain technology</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------PORTFOLIO------------->
+ <div id="Portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Promo-Twitter-Twitter profile picture size (1).jpeg">
+                <div class="layer">
+                    <h3>Flapping Bird Game</h3>
+                    <p>This Game is Develop in Unity Engine <br> in which a bird is tackle with obstacels</p>
+                    <a href="#"><i><i class="fa-solid fa-up-right-from-square"></i> </i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cyber3.jpeg">
+                <div class="layer">
+                    <h3>Text Encrypter</h3>
+                    <p>Text Encrypter Help to Encrypt your <br> data and protect it from attackers.</p>
+                    <a href="#"><i><i class="fa-solid fa-up-right-from-square"></i> </i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/blockchain.jpeg">
+                <div class="layer">
+                    <h3>Trusted Crowdfunding Platform</h3>
+                    <p>Block the funds within blockchain until the project <br>or startup founder makes progress in the project.</p>
+                    <a href="#"><i><i class="fa-solid fa-up-right-from-square"></i> </i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+
+</div>
+<!------------contact------------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>muhmubeen1@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>0309-4814098</p>
+                <div class="social-icons">
+                    <a href="https://github.com/muhmubeen1"><i class="fa-brands fa-github"></i></a>
+                    <a href="#https://www.instagram.com/mubeen___1/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>                   
+                </div>
+                <a href="images/MubEen Ashraf – Computer Scientist · Resume.io.pdf"class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div class="copyright">
+     <p>Copyright © Made by Mubeen ツ <i><i class="fa-solid fa-heart"></i></i> </p>
+</div>
+</div>
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right="0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right="-240px";
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbyH6nIPq4MfX2bmBltOdvhGW5tda4VfAt1LzoFCr4lIXChUUa-1s6Yis-iRTXyAw4MXaw/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
